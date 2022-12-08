@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+}
+
+/* MOBILE VERSION */
+header {
+  background-color: #112f82;
+  padding: 0px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .acamun-logo {
+  width: 100px;
+}
+
+header .burger div {
+  width: 35px;
+  height: 4px;
+  background-color: white;
+  margin: 6px 0;
+}
+
+.menubar ul {
+  list-style: none;
+  position: absolute;
+  top: 75px;
+  right: 0px;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  display: none;
+}
+
+.menubar ul li a {
+  background-color: #112f82;
+  color: white;
+  text-decoration: none;
+  padding-right: 20px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 15px;
+  display: flex;
+  justify-content: flex-end;
+}
