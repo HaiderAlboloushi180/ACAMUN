@@ -1,0 +1,11 @@
+body {
+  background-image: url(../images/ACAMUN-BG.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-family: Teko;
+  font-size: 40px;
+  text-align: center;
+}
