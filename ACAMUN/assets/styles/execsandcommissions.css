@@ -65,3 +65,44 @@ h1 {
   font-size: xx-large;
   color: white;
 }
+
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 70px;
+  }
+
+  .topic {
+    font-size: larger;
+  }
+
+  .commission-title {
+    font-size: 50px;
+  }
+
+  .exec-card {
+    width: 300px;
+  }
+
+  .exec-card img {
+    width: 320px;
+    height: 435px;
+    object-fit: scale-down;
+  }
+
+  .exec-name {
+    font-size: larger;
+  }
+
+  .execs-container .exec-card {
+    width: 400px;
+  }
+
+  .execs-container .exec-card .exec-name {
+    font-size: larger;
+  }
+
+  .juniorexec {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+}

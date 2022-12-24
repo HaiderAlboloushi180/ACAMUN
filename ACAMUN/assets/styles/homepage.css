@@ -17,14 +17,6 @@
   font-family: Teko-Bold;
 }
 
-.acamun-title-section .date {
-  margin-bottom: 0;
-  margin-top: 0;
-  color: #e2a813;
-  font-family: Teko;
-  font-size: xx-large;
-}
-
 .acamun-title-section .timer {
   color: #1c6e8c;
   font-family: Teko;
@@ -35,8 +27,8 @@
 .mission-statement p {
   color: #1c6e8c;
   text-align: center;
-  padding: 20px;
-  font-size: large;
+  padding: 25px;
+  font-size: 25px;
   font-family: RobotoSlab;
 }
 
@@ -45,4 +37,14 @@
   margin: 0;
   font-size: 70px;
   font-family: Teko;
+}
+
+@media screen and (min-width: 1024px) {
+  .acamun-title-section h1 {
+    font-size: 100px;
+  }
+
+  .acamun-title-section .timer {
+    font-size: 75px;
+  }
 }

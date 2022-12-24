@@ -15,6 +15,10 @@ header .acamun-logo {
   width: 100px;
 }
 
+header nav {
+  display: none;
+}
+
 header .burger div {
   width: 35px;
   height: 4px;
@@ -44,4 +48,32 @@ header .burger div {
   padding-left: 15px;
   display: flex;
   justify-content: flex-end;
+}
+
+@media screen and (min-width: 1024px) {
+  header .acamun-logo {
+    width: 175px;
+  }
+
+  .burger {
+    display: none;
+  }
+
+  header nav {
+    display: inline;
+    width: 60%;
+  }
+
+  header nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+  }
+
+  header nav ul li a {
+    color: white;
+    font-family: RobotoSlab;
+    font-size: x-large;
+    text-decoration: none;
+  }
 }
