@@ -22,6 +22,7 @@ h1 {
 
 .exec-card img {
   width: 110%;
+  background-color: rgba(128, 128, 128, 0.617);
 }
 
 .exec-name {
