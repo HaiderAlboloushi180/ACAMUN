@@ -98,6 +98,10 @@ h1 {
     width: 400px;
   }
 
+  .execs-container .exec-card img {
+    width: 420px;
+  }
+
   .execs-container .exec-card .exec-name {
     font-size: larger;
   }
