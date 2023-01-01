@@ -87,7 +87,6 @@ h1 {
   .exec-card img {
     width: 320px;
     height: 435px;
-    object-fit: scale-down;
   }
 
   .exec-name {
