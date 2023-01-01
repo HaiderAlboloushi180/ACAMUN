@@ -95,17 +95,19 @@ h1 {
   }
 
   .execs-container .exec-card {
-    width: 400px;
+    width: 300px;
   }
 
   .execs-container .exec-card img {
-    width: 420px;
+    width: 320px;
   }
 
   .execs-container .exec-card .exec-name {
-    font-size: larger;
+    font-size: 12px;
   }
+}
 
+@media screen and (min-width: 1060px) {
   .juniorexec {
     padding-left: 70px;
     padding-right: 70px;
