@@ -1,0 +1,11 @@
+.schedule-img {
+  width: 100%;
+  margin-bottom: 150px;
+}
+
+@media screen and (min-width: 1024px) {
+  .schedule-img {
+    width: 50%;
+    margin-left: 25%;
+  }
+}
