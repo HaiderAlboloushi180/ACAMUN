@@ -4,3 +4,15 @@
   align-items: center;
   flex-wrap: wrap;
 }
+
+.schedule-img {
+  width: 70%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 425px) {
+  .schedule-img {
+    width: 95%;
+  }
+}
