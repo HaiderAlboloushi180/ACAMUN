@@ -1,4 +1,4 @@
-var countDownDate = new Date("Jan 19, 2023").getTime();
+var countDownDate = new Date("Jan 19, 2023 16:30").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function () {
@@ -24,3 +24,5 @@ var x = setInterval(function () {
     document.getElementById("timer").innerHTML = "EXPIRED";
   }
 }, 1000);
+
+console.log("YARN APPLE RABBIT APPLE & EAR SNAKE SNAKE APPLE");
