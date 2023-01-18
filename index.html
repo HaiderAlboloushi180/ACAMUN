@@ -44,7 +44,7 @@
       <div class="acamun-title-section">
         <div class="acamun-title">
           <h1>ACAMUN '23</h1>
-          <h3 class="timer" id="timer"></h3>
+          <h3 class="timer" id="countdown"></h3>
         </div>
       </div>
       <div class="mission-statement">
@@ -120,6 +120,26 @@
     if (distance < 0) {
       clearInterval(x);
       document.getElementById("timer").innerHTML = "START CONFERENCE ⚔";
+    }
+  }, 1000);
+// -------------------------------- -------------------------------- --------------------------------
+   var countDownDate1 = new Date("Jan 19, 2023 16:30:00").getTime();
+
+    var x1 = setInterval(function () {
+    var now1 = new Date().getTime();
+
+    var distance1 = countDownDate1 - now1;
+
+    var hour = Math.floor((distance1 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minute = Math.floor((distance1 % (1000 * 60 * 60)) / (1000 * 60));
+    var second = Math.floor((distance1 % (1000 * 60)) / 1000);
+
+    document.getElementById("countdown").innerHTML =
+      hour + "h " + minute + "m " + second + "s ";
+
+    if (distance1 < 0) {
+      clearInterval(x1);
+      document.getElementById("countdown").innerHTML = "START CONFERENCE ⚔";
     }
   }, 1000);
 
