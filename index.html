@@ -44,7 +44,6 @@
       <div class="acamun-title-section">
         <div class="acamun-title">
           <h1>ACAMUN '23</h1>
-          <h3 class="timer" id="timer"></h3>
         </div>
       </div>
       <div class="mission-statement">
@@ -101,29 +100,6 @@
       <h6>American Creativity Academy</h6>
     </footer>
   </body>
-  <script>
-    var countDownDate = new Date("Jan 19, 2023 16:30:00").getTime();
-
-    var x = setInterval(function () {
-    var now = new Date().getTime();
-
-    var distance = countDownDate - now;
-
-    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-    document.getElementById("timer").innerHTML =
-      days+ "d " + hours + "h " + minutes + "m " + seconds + "s ";
-
-    if (distance < 0) {
-      clearInterval(x);
-      document.getElementById("timer").innerHTML = "START CONFERENCE ⚔";
-    }
-  }, 1000);
-
-  </script>
-  <script src="./assets/js/homepage.js"></script>
+    <script src="./assets/js/homepage.js"></script>
   <script src="./assets/js/burger.js"></script>
 </html>
